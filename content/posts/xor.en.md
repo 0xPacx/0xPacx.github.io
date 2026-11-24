@@ -2,7 +2,7 @@
 title: XOR Encryption
 date: 2026-04-15
 draft: false
-author: 0xGently
+author: Pacx
 tags:
   - encryption
 ---

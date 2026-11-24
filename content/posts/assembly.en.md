@@ -2,7 +2,7 @@
 title: What are Prologue and Epilogue in Assembly?
 date: 2026-05-21
 draft: false
-author: 0xGently
+author: Pacx
 tags:
   - Assembly
 ---

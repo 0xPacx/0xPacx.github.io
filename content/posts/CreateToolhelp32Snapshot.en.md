@@ -4,7 +4,7 @@ tags:
 title: " Process Enumeration-1"
 date: 2026-10-17
 draft: false
-author: 0xGently
+author: Pacx
 ---
 
  In this article, I will explain how to gather information about processes or threads using the `CreateToolhelp32Snapshot` function.

@@ -4,7 +4,7 @@ tags:
 title: Custom GetModuleHandle
 date: 2026-10-25
 draft:
-author: 0xGently
+author: Pacx
 ---
 ## Giriş
 

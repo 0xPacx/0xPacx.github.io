@@ -4,7 +4,7 @@ tags:
 title: " Process Enumeration-1"
 date: 2026-10-17
 draft: false
-author: 0xGently
+author: Pacx
 ---
 
 

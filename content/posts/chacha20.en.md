@@ -2,7 +2,7 @@
 title: Chacha20 Encryption
 date: 2026-04-01
 draft: false
-author: 0xGently
+author: Pacx
 tags:
   - encryption
 ---

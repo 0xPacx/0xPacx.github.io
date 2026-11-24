@@ -4,7 +4,7 @@ tags:
   - Execution
 date: 2026-10-09
 draft:
-author: 0xGently
+author: Pacx
 ---
 ## Remote_Thread_Creation
 

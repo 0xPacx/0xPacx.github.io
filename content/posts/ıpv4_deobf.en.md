@@ -2,7 +2,7 @@
 title: IPv4/IPv6 DeObfuscation
 date: 2026-04-10
 draft: false
-author: 0xGently
+author: Pacx
 tags:
   - obfuscation
 ---

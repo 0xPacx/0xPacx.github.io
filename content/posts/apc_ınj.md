@@ -4,7 +4,7 @@ tags:
 title: Local APC Injection
 date: 2026-10-21
 draft:
-author: 0xGently
+author: Pacx
 ---
 
 # Apc Injection

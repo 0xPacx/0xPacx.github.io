@@ -2,7 +2,7 @@
 title: Packet Crafting with Scapy
 date: 2025-05-21
 draft: false
-author: 0xGently
+author: Pacx
 tags:
   - Python
 ---

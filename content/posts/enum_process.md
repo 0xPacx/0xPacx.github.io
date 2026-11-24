@@ -2,7 +2,7 @@
 title: Process Enumeration-2
 date: 2026-02-03
 draft:
-author: 0xGently
+author: Pacx
 tags:
   - Enumeration
 ---

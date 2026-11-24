@@ -4,7 +4,7 @@ tags:
 title: Custom GetProcAddress
 date: 2026-10-27
 draft:
-author: 0xGently
+author: Pacx
 ---
 ## Giriş
 
