@@ -10,7 +10,7 @@ tags:
 
 In this post, we will examine how a network configuration function, which looks completely ordinary from the outside, is transformed into a shellcode decoder. Our goal is to understand the attacker's mindset and design our defensive systems to catch these types of "normal-looking anomalies."
 
-**Note**: You can find the entirety of the code explained in this text at [malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/Payload-Encryption-and-Obfuscation/06-IPv4_IPv6_DeObf) Furthermore, once you establish the logic of this topic and examine the full version of the code, you can also construct DeObfuscation processes applied to other techniques. They are pretty much the same anyway; you only need to make a few modifications, that is all.
+**Note**: You can find the entirety of the code explained in this text at [malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/Payload-Encryption-and-Obfuscation/06-IPv4_IPv6_DeObf) Furthermore, once you establish the logic of this topic and examine the full version of the code, you can also construct DeObfuscation processes applied to other techniques. They are pretty much the same anyway; you only need to make a few modifications, that is all.
 
 At the center of this technique lies the `RtlIpv4StringToAddressA` function located within `ntdll.dll`. When you look at Microsoft's official documentation, you will see that this function is quite simple and has a single purpose: to take a text-based (string) IPv4 address like `"192.168.1.1"` and convert it into a 4-byte binary `struct in_addr` structure so that it can be used in network sockets.
 

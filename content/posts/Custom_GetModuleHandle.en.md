@@ -222,4 +222,4 @@ Finally, if the loop was broken, we return the base address we found; if the lis
 
 Thus, without touching the `GetModuleHandle` API at all, we have obtained the memory address of a DLL entirely through our own methods by manually parsing the operating system's internal data structures.
 
-That wraps up our topic. It might have taken a bit long, but this was the most concise and clear way I could explain the fundamental concepts and structs. If you want to access the complete code discussed in this post, you can find it at [malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/IAT-Hiding/GetModuleHandle)
+That wraps up our topic. It might have taken a bit long, but this was the most concise and clear way I could explain the fundamental concepts and structs. If you want to access the complete code discussed in this post, you can find it at [malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/IAT-Hiding/GetModuleHandle)

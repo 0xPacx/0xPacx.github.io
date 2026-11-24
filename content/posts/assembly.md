@@ -2,7 +2,7 @@
 title: "Assembly’de Prologue ve Epilogue Nedir?"
 date: 2025-07-03
 draft: false
-author: "0xGently"
+author: "Pacx"
 tags: [Tersine Mühendislik, Assembly]
 ---
 

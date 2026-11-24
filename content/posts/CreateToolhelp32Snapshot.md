@@ -17,7 +17,7 @@ Operasyonumuzu iki temel aşamaya böleceğiz.
 
 Kısacası bu bölümde; sistemdeki **process**'leri ve **thread**'leri en temel API'lerle nasıl **enumerate** edeceğimizi, bunları yaparken de işletim sisteminden ihtiyacımız olan **handle**'ları nasıl alacağımızı  kodlar üzerinden pratik bir şekilde göreceğiz.
 
-**NOT:** Konuda bahsedilen fonksiyonların tamamına ulaşmak isterseniz [malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/Enumeration/CreateToolhelp32Snapshot) adresinden bulabilirsiniz.
+**NOT:** Konuda bahsedilen fonksiyonların tamamına ulaşmak isterseniz [malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/Enumeration/CreateToolhelp32Snapshot) adresinden bulabilirsiniz.
 
 ### Adım 1: Process Enumeration via function
 

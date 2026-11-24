@@ -96,4 +96,4 @@ Son aşamada, bulduğumuz ismin bizim aradığımız hedefle eşleşip eşleşme
 ```
 `_wcsicmp` ile büyük/küçük harf duyarlılığına takılmadan elimizdeki ismi aradığımız `target_name` ile karşılaştırıyoruz. Eğer eşleşiyorsa hedefi bulduk demektir! PID değerini dışarı aktarıyor (`*out_pid = pids[i]`), açık olan handle'ı temizliyor (`CloseHandle`) ve aramamızı başarıyla bitiriyoruz. Eğer eşleşmezse, döngü bir sonraki PID'yi incelemek üzere devam ediyor.
 
-**Not**: Bu metinde anlattığım kodun tamamını [malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/Enumeration/EnumProcesses) adresinde bulabilirsiniz
+**Not**: Bu metinde anlattığım kodun tamamını [malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/Enumeration/EnumProcesses) adresinde bulabilirsiniz

@@ -140,4 +140,4 @@ We check the match status with our own string function. When a match is found, w
 
 As a result of these operations, we have implemented the background PE Header parsing operations of `GetProcAddress`, a standard Windows API, with our own code. The original `GetProcAddress` function, in addition to this basic structure, also manages exceptional situations like "Forwarded Exports" (where a function inside one DLL is redirected to a different DLL). However, writing this basic implementation step by step is highly productive for understanding the architecture in order to grasp RVA calculations on memory, the Ordinal bridge, and the PE file structure. We have completed the operation without external dependencies, directly over memory addresses.
 
-If you want to access the entire code explained in the topic, you can find it at [malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/IAT-Hiding/GetProcAddress)
+If you want to access the entire code explained in the topic, you can find it at [malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/IAT-Hiding/GetProcAddress)

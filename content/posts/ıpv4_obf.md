@@ -15,7 +15,7 @@ Yazılım geliştirirken kodu zorlaştırmak bazen sadece fikri mülkiyeti korum
 Peki ya bu shellcode'u alıp, sanki son derece masum bir ağ yapılandırma dosyasıymış gibi gösterebilseydik? Bu yazıda tam olarak bunu yapacağız. Shellcode'umuzu parçalara ayırıp, her bir parçayı standart bir **IPv4 adresi** (`192.168.1.1` gibi) string'ine dönüştüreceğiz. Böylece dosyamızın içinde şüpheli hex değerleri yerine, yüzlerce masum IP adresi görünecek.
 
 
-**Not**: Bu metinde anlattığım kodun tamamını [malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/Payload-Encryption-and-Obfuscation/05-IPv4_IPv6_Obf) adresinde bulabilirsiniz.  Ayrıca bu konunun mantığını kavrayınca diğer tekniklerin (Mac,Uuid obfuscatıon) işleyişide birebir aynı.
+**Not**: Bu metinde anlattığım kodun tamamını [malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/Payload-Encryption-and-Obfuscation/05-IPv4_IPv6_Obf) adresinde bulabilirsiniz.  Ayrıca bu konunun mantığını kavrayınca diğer tekniklerin (Mac,Uuid obfuscatıon) işleyişide birebir aynı.
 ### 1. GeneratePkcs7Padding Fonksiyonu
  
 Bir IPv4 adresi tam olarak 4 byte'tan oluşur (Örn: `192.168.1.1` -> `C0 A8 01 01`). Ancak msfvenom veya Cobalt Strike gibi araçlardan ürettiğiniz bir shellcode'un boyutunun tam olarak 4'ün katı olma garantisi yoktur. Örneğin, 275 byte'lık bir shellcode'unuz varsa ve bunu 4'erli gruplara bölerseniz en sona 3 byte kalır. Program o son IP adresini oluşturmaya çalışırken 4. byte'ı bulamayacağı için bellek hatası verir ve çöker.

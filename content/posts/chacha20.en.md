@@ -17,7 +17,7 @@ So why do we choose ChaCha20? Because it is exceptionally fast, does not rely on
 Today, we will examine how this mechanism works through standard ChaCha20 C code. Without getting bogged down in hundreds of lines of memory management or error handling, we focus strictly on the 3 most crucial aspects of the algorithm.
 
  Note: If you would like to inspect the remainder of the code, you can find it via the following link:
-[malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/Payload-Encryption-and-Obfuscation/03-ChaCha20)
+[malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/Payload-Encryption-and-Obfuscation/03-ChaCha20)
 
 
 ### 1. Initializing the State Matrix

@@ -124,4 +124,4 @@ SignalObjectAndWait(hSignalEvent, hDummyEvent, INFINITE, TRUE);
 
 İşte hepsi bu kadar. Özetle, önce `QueueUserAPC` ile zararlı kodumuzu thread'in cebine koyuyoruz, ardından yukarıdaki fonksiyonlardan birini kullanarak thread'i o kodlara bakmaya zorluyoruz. Gördüğünüz gibi, Local APC Injection aslında bir thread'in zamanlama mekanizmalarını kendi lehimize kullanmaktan ibaret şık bir tekniktir.
 
-**NOT:** Bu teknikle ilgili PoC kodunun tamamına erişmek isterseniz, GitHub hesabımdaki [malware-development-library](https://github.com/0xGently/Malware-Dev-Analysis-Library/tree/main/Injection/Apc-Injection) adlı repoya göz atabilirsiniz.
+**NOT:** Bu teknikle ilgili PoC kodunun tamamına erişmek isterseniz, GitHub hesabımdaki [malware-development-library](https://github.com/0xPacx/Malware-Dev-Analysis-Library/tree/main/Injection/Apc-Injection) adlı repoya göz atabilirsiniz.

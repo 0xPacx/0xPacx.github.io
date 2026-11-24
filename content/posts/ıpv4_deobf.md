@@ -10,7 +10,7 @@ tags:
 
 Bu yazıda, dışarıdan bakıldığında son derece sıradan görünen bir ağ yapılandırma fonksiyonunun, nasıl bir shellcode decoder'a dönüştürüldüğünü inceleyeceğiz. Amacımız, saldıran tarafın zihniyetini anlayarak savunma sistemlerimizi bu tür "normal görünen anormallikleri" yakalayacak şekilde kurgulamak.
 
-**Not**: Bu metinde anlattığım kodun tamamını [malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/Payload-Encryption-and-Obfuscation/06-IPv4_IPv6_DeObf) adresinde bulabilirsiniz. Ayrıca bu konunun mantığını oturtup kodun tam halini incelediğinizde diğer tekniklere uygulanan DeObfuscation işlemlerinide oluşturabilirsiniz. Zaten hemen hemen aynı ya sadece birkaç değişiklik yapmanız gerekmektedir o kadar.
+**Not**: Bu metinde anlattığım kodun tamamını [malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/Payload-Encryption-and-Obfuscation/06-IPv4_IPv6_DeObf) adresinde bulabilirsiniz. Ayrıca bu konunun mantığını oturtup kodun tam halini incelediğinizde diğer tekniklere uygulanan DeObfuscation işlemlerinide oluşturabilirsiniz. Zaten hemen hemen aynı ya sadece birkaç değişiklik yapmanız gerekmektedir o kadar.
 
 Bu tekniğin merkezinde `ntdll.dll` içerisinde yer alan `RtlIpv4StringToAddressA` fonksiyonu bulunuyor. Microsoft'un resmi dokümantasyonuna baktığınızda bu fonksiyonun oldukça basit ve tek bir amacı olduğunu görürsünüz: `"192.168.1.1"` gibi metin tabanlı (string) bir IPv4 adresini almak ve bunu ağ soketlerinde kullanılabilmesi için 4 byte'lık ikili (binary) bir `struct in_addr` yapısına dönüştürmek.
 

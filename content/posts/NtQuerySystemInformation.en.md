@@ -161,5 +161,5 @@ We close the handle as soon as we are done with it, and we don't carry it into t
 CloseHandle(hProc);
 ```
 
-If you want, you can find the full code at [malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/Enumeration/NtQuerySystemInformation) address. That was our topic, thank you for reading.
+If you want, you can find the full code at [malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/Enumeration/NtQuerySystemInformation) address. That was our topic, thank you for reading.
 

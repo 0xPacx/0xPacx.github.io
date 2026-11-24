@@ -15,7 +15,7 @@ This is precisely where payload encryption comes into play. In this post, we wil
 
 
 **Note**: You can find the complete code discussed in this post at:
-[malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/Payload-Encryption-and-Obfuscation/01-XOR)
+[malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/Payload-Encryption-and-Obfuscation/01-XOR)
 
 ### XOR (Exclusive OR)
 

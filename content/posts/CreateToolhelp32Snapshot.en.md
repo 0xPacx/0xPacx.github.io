@@ -16,7 +16,7 @@ First, starting with plain text (such as a process name like `notepad.exe`), we 
 
 In short, in this section, we will see practically through code how to enumerate processes and threads in the system using the most fundamental APIs, and how to obtain the necessary handles from the operating system while doing so.
 
-**NOTE:** If you want to access all the functions mentioned in this topic, you can find them at [malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/Enumeration/CreateToolhelp32Snapshot)
+**NOTE:** If you want to access all the functions mentioned in this topic, you can find them at [malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/Enumeration/CreateToolhelp32Snapshot)
 ### Step 1: Process Enumeration via function
 
 First, we will look at how to get the PID and Handle of our target among the running processes in the system. Let's examine the code step by step and understand what goes on in the background.

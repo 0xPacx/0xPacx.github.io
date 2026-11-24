@@ -143,4 +143,4 @@ Kendi string fonksiyonumuzla eşleşme durumunu kontrol ediyoruz. Eşleşme sağ
 
 Bu işlemler sonucunda standart bir Windows API'si olan `GetProcAddress`'in arka plandaki PE Header parse işlemlerini kendi kodumuzla uygulamış olduk. Orijinal `GetProcAddress` fonksiyonu, bu temel yapının yanı sıra "Forwarded Exports" (bir DLL içindeki fonksiyonun farklı bir DLL'e yönlendirilmiş olması) gibi istisnai durumları da yönetmektedir. Ancak bellek üzerindeki RVA hesaplamalarını, Ordinal köprüsünü ve PE dosya yapısını kavramak için bu temel uygulamayı adım adım yazmak, mimariyi anlamak açısından oldukça verimlidir. İşlemi dış bağımlılıklar olmadan, doğrudan bellek adresleri üzerinden tamamlamış olduk.
 
-Konuda anlatılan kodun tamamına ulaşmak isterseniz [malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/IAT-Hiding/GetProcAddress) adresinden ulaşabilirsiniz.
+Konuda anlatılan kodun tamamına ulaşmak isterseniz [malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/IAT-Hiding/GetProcAddress) adresinden ulaşabilirsiniz.

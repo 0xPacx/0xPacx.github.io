@@ -158,4 +158,4 @@ Handle'ı işimiz biter bitmez kapatıyoruz, döngünün geri kalanına taşım�
 ```c
 CloseHandle(hProc);
 ```
-Kodun tamamını isterseniz [malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/Enumeration/NtQuerySystemInformation) adresinden bulabilirsiniz. Konumuz bu kadardı okuduğunuz için teşekkürler.
+Kodun tamamını isterseniz [malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/Enumeration/NtQuerySystemInformation) adresinden bulabilirsiniz. Konumuz bu kadardı okuduğunuz için teşekkürler.

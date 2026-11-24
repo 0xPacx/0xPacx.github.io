@@ -123,4 +123,4 @@ SignalObjectAndWait(hSignalEvent, hDummyEvent, INFINITE, TRUE);
 
 That is all there is to it. In summary, first we slip our malicious code into the thread's pocket using `QueueUserAPC`, and then we force the thread to look at that code using one of the functions above. As you can see, Local APC Injection is actually an elegant technique that consists of using a thread's scheduling mechanisms to our advantage.
 
-**NOTE:** If you want to access the entire PoC code for this technique, you can check out the [malware-development-library](https://github.com/0xGently/Malware-Dev-Analysis-Library/tree/main/Injection/Apc-Injection) repository on my GitHub.
+**NOTE:** If you want to access the entire PoC code for this technique, you can check out the [malware-development-library](https://github.com/0xPacx/Malware-Dev-Analysis-Library/tree/main/Injection/Apc-Injection) repository on my GitHub.

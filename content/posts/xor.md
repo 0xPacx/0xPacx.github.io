@@ -13,7 +13,7 @@ Malware geliştirme dünyasında, yazdığınız zararlı yazılımın ömrünü
 
 İşte tam bu noktada **Payload Encryption** devreye girer. Bu yazımızda, zararlı yazılım dünyasının en temel ama en çok modifiye edilen şifreleme mantıklarından birini, **XOR** algoritmasını inceleyeceğiz. İşi temelden alıp kompleks (Rolling/Position-Dependent) yapılara doğru evrilteceğiz.
 
-**Not**: Bu metinde anlattığım kodun tamamını [malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/Payload-Encryption-and-Obfuscation/01-XOR) adresinde bulabilirsiniz
+**Not**: Bu metinde anlattığım kodun tamamını [malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/Payload-Encryption-and-Obfuscation/01-XOR) adresinde bulabilirsiniz
 ### XOR (Exclusive OR)
 
 XOR operatörü (`^`), kriptografide ve zararlı yazılım geliştirmede vazgeçilmezdir çünkü **simetriktir**. Yani bir veriyi şifrelemek ve o veriyi çözmek için aynı fonksiyonu kullanırsınız.

@@ -18,7 +18,7 @@ Peki neden ChaCha20'yi seçiyoruz? Çünkü inanılmaz derecede hızlıdır, iş
 Bugün, standart bir ChaCha20 C kodu üzerinden bu işin nasıl çalıştığına bakacağız. Yüzlerce satırlık bellek yönetimi veya hata kontrolleriyle uğraşmadan, algoritmanın sadece en can alıcı 3 noktasına odaklanıyoruz. 
 
 **Not**:  Kodun geri kalanını incelemek isterseniz şu link üzerinden bakabilirsiniz:
-[malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/Payload-Encryption-and-Obfuscation/03-ChaCha20)
+[malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/Payload-Encryption-and-Obfuscation/03-ChaCha20)
 ### 1. Matris Oluşturmak
 
 ChaCha20, bir akış şifrelemesidir (Stream Cipher). Amacı, elimizdeki anahtarı (key) kullanarak çok uzun, rastgele gibi görünen bir veri akışı (keystream) üretmektir. Her şey, bellekte 4x4'lük (16 kelime / 64 byte) bir tablo (matris) oluşturmamızla başlar.

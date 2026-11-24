@@ -1,7 +1,7 @@
-baseURL = 'https://0xGently.github.io/'
+baseURL = 'https://0xPacx.github.io/'
 defaultContentLanguage = 'tr'
 languageCode = 'tr-TR'
-title = '0xGently'
+title = 'Pacx'
 theme = 'PaperMod'
 
 [outputs]
@@ -32,7 +32,7 @@ theme = 'PaperMod'
     
   # Ana Sayfa Bilgileri (Boşluksuz tek satır yapıldı ki kod bloğuna dönüşmesin)
   [params.homeInfoParams]
-    Title = "0xGently"
+    Title = "Pacx"
     avatarUrl = "https://avatars.githubusercontent.com/u/225085536?v=4"
     quote = "// It's not a feature, it's just a bug."
     Content = "Malware Analysis | Reverse Engineering | CTI"
@@ -40,7 +40,7 @@ theme = 'PaperMod'
   # Your social media and GitHub links
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/0xGently"
+    url = "https://github.com/0xPacx"
 
 # Top menu settings
 [menu]
@@ -61,9 +61,9 @@ theme = 'PaperMod'
   [languages.tr]
     languageName = "Türkçe"
     weight = 1
-    title = "0xGently"
+    title = "0xPacx"
   [languages.en]
     languageName = "English"
     weight = 2
-    title = "0xGently"
+    title = "0xPacx"
 

@@ -221,4 +221,4 @@ Son olarak, eğer döngü kırıldıysa bulduğumuz base adresini; eğer liste b
 
 Böylece `GetModuleHandle` API'sine hiç dokunmadan, işletim sisteminin kendi iç veri yapılarını manuel olarak tarayarak bir DLL'in bellek adresini tamamen kendi yöntemlerimizle elde etmiş olduk.
 
-Konumuz bu kadardı biraz uzun sürmüş olabilir ama temel kavramları veya structları en fazla bu kadar kısa ve net anlatabildim. Konuda anlatılan kodun tamamına ulaşmak isterseniz [malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/IAT-Hiding/GetModuleHandle) adresinden ulaşabilirsiniz.
+Konumuz bu kadardı biraz uzun sürmüş olabilir ama temel kavramları veya structları en fazla bu kadar kısa ve net anlatabildim. Konuda anlatılan kodun tamamına ulaşmak isterseniz [malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/IAT-Hiding/GetModuleHandle) adresinden ulaşabilirsiniz.

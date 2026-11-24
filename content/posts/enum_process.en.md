@@ -94,5 +94,5 @@ In the final stage, we check whether the name we found matches the target we are
 ```
 With `_wcsicmp`, we compare the name we have with our `target_name` without worrying about case sensitivity. If it matches, it means we found the target! It exports the PID value (`*out_pid = pids[i]`), cleans up the open handle (`CloseHandle`), and successfully finishes our search. If it doesn't match, the loop continues to examine the next PID.
 
-Note: You can find the complete code described in this text at [malware-development-library](https://github.com/0xGently/malware-development-library/tree/main/Enumeration/EnumProcesses)
+Note: You can find the complete code described in this text at [malware-development-library](https://github.com/0xPacx/malware-development-library/tree/main/Enumeration/EnumProcesses)
   
